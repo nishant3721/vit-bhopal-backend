@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { Body, Controller, Get, Post, Req, UseGuards } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
+import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { User } from 'src/models/user';
 import { AuthService } from './auth.service';
 import { AuthorizeDto } from './dto/authorize.dto';
